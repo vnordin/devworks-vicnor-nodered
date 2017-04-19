@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: eu-gb.mybluemix.net
+  name: devworks-vicnor-nodered
+  host: devworks-vicnor-nodered
+  disk_quota: 1024M
+  services:
+  - devworks-vicnor-nodered-cloudantNoSQLDB
+  - Language Translator-45
+  - Conversation-3b
